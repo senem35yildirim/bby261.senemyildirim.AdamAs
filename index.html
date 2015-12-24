@@ -2,8 +2,6 @@
      <head> 
          <meta charset="utf-8"/> 
          <title>Adam Asmaca</title> 
-        <link rel="stylesheet" type="text/css" href="tasarm.css"/>
-
          <script src="adamas.js"></script> 
      </head> 
       <style> 
@@ -16,19 +14,18 @@
      </style> 
      <body> 
          <center> 
-         <h1 style="color:green">Adam Asmaca</h1> 
+         <h1 style="color: green">Adam Asmaca</h1> 
          
-        <img id='adam' src="4.jpg"></img>
+        <img id='adam' style="width: 70%"> </img>
          <script>document.getElementById("secilenKelimeGoster").innerHTML = secilenKelime</script> 
          <p id="harfTutucuGoster"></p> 
          <script>document.getElementById("harfTutucuGoster").innerHTML = harfTutucu.join('&nbsp');</script> 
          <p>
              <div id="klavye">
-			
              <form id="frm1"> 
                  <input type="text" name="girilenHarf" maxlength="1" autofocus/> 
              </form> 
-             <div id="buton"><button id="HarfsorgulamaButonu" onclick="location.reload()" >Harfi Sorgula</button></div>
+             <button onclick="myFunction()">Harfi Sorgula</button>
     </div>
              <script> 
                  function myFunction() { 
@@ -41,4 +38,4 @@
          </p> 
          </center> 
      </body> 
- </html> 
+ </html>
