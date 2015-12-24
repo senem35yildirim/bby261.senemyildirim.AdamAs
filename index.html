@@ -1,0 +1,44 @@
+<html> 
+     <head> 
+         <meta charset="utf-8"/> 
+         <title>Adam Asmaca</title> 
+        <link rel="stylesheet" type="text/css" href="tasarm.css"/>
+
+         <script src="adamas.js"></script> 
+     </head> 
+      <style> 
+      
+             body {  
+                 background-image:url(arkaplan.jpg); 
+     background-color: #cccccc; 
+             } 
+     
+     </style> 
+     <body> 
+         <center> 
+         <h1 style="color:green">Adam Asmaca</h1> 
+         
+        <img id='adam' src="4.jpg"></img>
+         <script>document.getElementById("secilenKelimeGoster").innerHTML = secilenKelime</script> 
+         <p id="harfTutucuGoster"></p> 
+         <script>document.getElementById("harfTutucuGoster").innerHTML = harfTutucu.join('&nbsp');</script> 
+         <p>
+             <div id="klavye">
+			
+             <form id="frm1"> 
+                 <input type="text" name="girilenHarf" maxlength="1" autofocus/> 
+             </form> 
+             <div id="buton"><button id="HarfsorgulamaButonu" onclick="location.reload()" >Harfi Sorgula</button></div>
+    </div>
+             <script> 
+                 function myFunction() { 
+                 var x = document.getElementById("frm1"); 
+                 harfKontrol(x.elements[0].value); 
+                 x.elements[0].value = null; 
+                 x.elements[0].focus(); 
+                 }           
+             </script> 
+         </p> 
+         </center> 
+     </body> 
+ </html> 

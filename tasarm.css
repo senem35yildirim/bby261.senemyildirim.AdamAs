@@ -1,0 +1,37 @@
+
+body{
+	background-color:burlywood;
+	font-family: Arial, Helvetica, serif;
+}
+h1{
+	font-size: 1.75em;
+
+
+}
+#adam{
+	width:70%;
+}
+
+
+#HarfsorgulamaButonu {
+	font-family: Arial, Helvetica, serif;
+	background-color: #F4CDB7;
+    color: #08091C;
+    font-size: 15px;
+    border: 2px outset #957603 ;
+}
+#HarfsorgulamaButonu:hover{ /* Üstüne gelince yap */
+	background-color: #698420;
+    border: 2px outset #957603;
+	
+}
+#HarfsorgulamaButonu:active{ /* Tıklayınca yap */
+	background-color: #698420;
+    border: 2px outset #957603;
+    position:relative;
+    top:1px;
+	
+}
+
+
+    
